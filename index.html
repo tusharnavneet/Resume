@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RESUME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <style>
+    /* Makes the animation pause on hover */
+    .moving-text {
+      animation-play-state: paused;
+    }
+
+    .moving-text:hover {
+      animation-play-state: running;
+    }
+
+    /* The animation */
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* media query to enable animation for only those who want it */
+    @media (prefers-reduced-motion: no-preference) {
+      .moving-text {
+        animation: marquee 8s linear infinite;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="heading">
+    <h1 id="abs" align="center"><u>BIO-DATA</u></h1>
+  </div>
+  <hr>
+
+
+
+
+  <button type="button" class="f1 spaceleft">F1</button>
+  <span class="hide1">font-family: 'Courier New', Courier, monospace;</span>
+  <button type="button" class="f2">F2</button>
+  <span class="hide2">font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;</span>
+  <button type="button" class="f3 spaceright">F3</button>
+  <span class="hide3"> font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;</span>
+
+  <button type="button" class="inc spaceleft">M</button>
+  <button type="button" class="des">S</button>
+  <button type="button" class="double spaceright">L</button>
+
+  <button type="button" class="buttonred spaceleft">&nbsp;&nbsp;</button>
+  <button type="button" class="buttongreen">&nbsp;&nbsp;</button>
+  <button type="button" class="buttonblue spaceright">&nbsp;&nbsp;</button>
+
+
+
+  <div class="container">
+    <div class="grid-container">
+
+
+      <div class="grid-item">
+        <div class="cv-image" align="right">
+          <img display:inline
+            src="https://images.unsplash.com/photo-1585468491047-f02d6f7c706c?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Greenery" class="pic">
+        </div>
+      </div>
+
+
+      <div class="grid-item">
+        <div class="aboutme" align="right">
+          <span>
+            <p><b>Name : </b> Tushar Navneet</p>
+          </span>
+          <span>
+            <p><b>Common Address : </b>Gaya,Bihar</p>
+          </span>
+          <span>
+            <p><b>Email : </b> tusharnavneet3@gmail.com</p>
+          </span>
+          <span>
+            <p><b>Contact No. : </b>8709661636</p>
+          </span>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row grid-item">
+        <div class="column v1">
+          <li>
+            <h2>OBJECTIVE</h2>
+          </li>
+          <hr>
+          <ul>
+            <li>Myself Tushar</li>
+            <li>I am hardworking person and passoniate to learn new skill</li>
+          </ul>
+
+          <li>
+            <h2>ACADEMIC QUALIFICATION</h2>
+            <hr>
+
+            <table>
+              <tr>
+                <th rowspan="2">Exam</th>
+                <th rowspan="2">Institute Name</th>
+                <th colspan="3">Duration</th>
+                <th colspan="2">Marks</th>
+                <th rowspan="2">Division</th>
+              </tr>
+              <tr>
+                <th>Start date</th>
+                <th>End date</th>
+                <th>Years</th>
+                <th>TM</th>
+                <th>OM</th>
+              </tr>
+              <tr>
+                <td>Btech</td>
+                <td>IIITM</td>
+                <td>6/2022</td>
+                <td>6/2026</td>
+                <td>10</td>
+                <td>7.8</td>
+                <td>4 years</td>
+                <td>2nd Division</td>
+              </tr>
+            </table>
+          </li>
+
+          <li>
+            <h2>PROJECT</h2>
+          </li>
+          <hr>
+          <ul>
+            <li>Todo list</li>
+            <li>Calculator</li>
+            <li>Clone site</li>
+            <li>Search Engine</li>
+          </ul>
+
+          <li>
+            <h2>COURSE COMPLETED</h2>
+          </li>
+          <table>
+            <tr>
+              <th colspan="2">Course</th>
+              <th rowspan="2">Grade</th>
+              <th rowspan="2">Year of Completion</th>
+              <th rowspan="2">Org NAME</th>
+            </tr>
+            <th>Code</th>
+            <th>Name</th>
+            <tr>
+            <tr>
+              <td>2043</td>
+              <td>COA</td>
+              <td>10</td>
+              <td>2023</td>
+              <center>
+                <td rowspan="3">IIIM</td>
+              </center>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>Maths</td>
+              <td>8</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>2040</td>
+              <td>DS</td>
+              <td>9</td>
+              <td>2023</td>
+            </tr>
+          </table>
+        </div>
+
+
+        <div class="column grid-item">
+          <li>
+            <h2>AWARD/RECOGINATION</h2>
+          </li>
+          <hr>
+          <ul>
+            <li>hiidwodof</li>
+            <li>dwwhweo</li>
+          </ul>
+          <li>
+            <h2>SKILL</h2>
+          </li>
+          <hr>
+          <table>
+            <tr>
+              <th colspan="2">Prog. language</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td rowspan="3">Framework Library</td>
+              <td>C</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>2023</td>
+            <tr>
+              <td>HTML</td>
+              <td>2023</td>
+            </tr>
+          </table>
+
+
+          <li>
+            <h2>PING ME</h2>
+          </li>
+          <hr>
+          <img height="550px" width="550px"
+            src="https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg.webp" alt="Workplace"
+            usemap="#workmap" height="450px">
+
+          <map name="workmap">
+            <area shape="rect" coords="0,0,225,225" alt="Computer" border="10"
+              href="https://www.thehosteller.com/_next/image?                  url=https%3A%2F%2Fstatic.thehosteller.com%2Fhostel%2Fimages%2FCover%20(1).jpg%2FCover%20(1)-1690261803767.jpg&w=1200&q=75"
+              target="_blank">
+            <area shape="rect" coords="225,0,550,225" alt="Phone" border="10"
+              href="https://im.hunt.in/cg/City-Guide/about-bangalore.jpg" target="_blank">
+            <area shape="rect" coords="0,225,550,550" alt="Coffee" href="#abs">
+          </map>
+          <ul>
+            <li>Phone no: 8709661636 </li>
+            <li><a href="mailto:tusharnavneet3@gmail.com">Contact me</a></li>
+          </ul>
+
+          </ol>
+        </div>
+      </div>
+      <h2 align="center"> Image gallary </h2>
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://images.unsplash.com/photo-1548224666-cb3166024da0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D"
+            target="_blank" alt="Image">
+        </div>
+        <div class="col">
+          <img
+            src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyZWVuZXJ5fGVufDB8fDB8fHww"
+            alt="Image">
+        </div>
+        <div class="col">
+          <img
+            src="https://images.unsplash.com/photo-1524116458090-9521cd04f38d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxlYXZlcyUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+            alt="Image">
+        </div>
+        <div class="col">
+          <img
+            src="https://images.unsplash.com/photo-1601088406172-8556f23e8646?w=420&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NzEwOTA0Mzd8fGVufDB8fHx8fA%3D%3D"
+            alt="Image">
+        </div>
+      </div>
+
+      <h2 align="center"> Video gallary </h2>
+      <div class="rows" align="center">
+        <div class="moving-text col">
+          <!--marquee behavior="slide" loop="-1" scrollamount="70"-->
+          <iframe src="https://www.youtube.com/embed/WGKKZpbyZmw " title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="moving-text col">
+          <iframe src="https://www.youtube.com/embed/OvTH-7ESoRA" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="moving-text col">
+          <iframe src="https://www.youtube.com/embed/vnamG9ZtSec" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="moving-text col">
+          <iframe src="https://www.youtube.com/embed/W--Yhp0m35A " title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <!--/marquee-->
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+</html>
